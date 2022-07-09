@@ -1,0 +1,241 @@
+@media (max-width:1280px) {
+
+    /* Header media */
+
+    .header-content, .footer-content{
+        padding: 0 100px;
+    }
+    
+
+    /* Main top media */
+
+    .main-top {
+        padding: 70px 100px;
+    }
+
+    .main-top__content {
+        border: 2px #C4C4C4 solid;
+        padding: 40px 0 37px 0;
+    }
+
+    .main-top__content-text h2 {
+        width: 400px;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .main-top__content-text p {
+        padding-bottom: 6px;
+        width: 500px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .main-top__content-text {
+        gap: 25px;
+    }
+
+    .main-top__content-text img {
+        width: 100px;
+    }
+
+    /* Main middle media */
+
+    .main-middle {
+        padding: 60px 100px;
+    }
+
+    .main-middle__content {
+        padding: 40px 0;
+    }
+
+    .middle__content-left {
+        gap: 15px;
+    }
+
+    .middle__content-left h2 {
+        font-size: 26px;
+        line-height: 36px;
+        width: 220px;
+    }
+
+    .middle__content-left p {
+        font-size: 12px;
+        line-height: 18px;
+        width: 270px;
+    }
+
+    .year {
+        padding: 0 20px 0 15px;
+
+    }
+
+    .text {
+        gap: 3px;
+        padding-left: 15px;
+    }
+
+    tr {
+        max-width: 400px;
+    }
+
+    .text h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .middle__content-right {
+        margin-left: 20px;
+        gap: 15px;
+    }
+
+    .right__bottom {
+        gap: 10px;
+    }
+
+
+    /* Main bottom media */
+
+    .main-bottom {
+        padding: 80px 100px 50px;
+    }
+
+    .main-bottom__content {
+        padding: 44px 0 54px;
+        border: 2px #C4C4C4 solid;
+    }
+
+    .bottom-content {
+        gap: 26px;
+    }
+
+    .bottom-content h2 {
+        font-size: 26px;
+        width: 326px;
+    }
+
+    .bottom-content p {
+        font-size: 12px;
+        line-height: 18px;
+        width: 360px;
+    }
+
+    .png1,
+    .png2 {
+        width: 180px;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .main-bottom {
+        margin: 0 50px;
+        padding: 60px 50px 35px;
+    }
+
+    form {
+        width: 300px;
+        gap: 26px;
+    }
+
+    .main-input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .png1,
+    .png2 {
+        display: none;
+    }
+
+    .right__bottom {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .right__bottom img {
+        width: 100%;
+    }
+    .header-content a, .footer-content a{
+        font-size: 0.7em;
+    }
+
+}
+@media (max-width:767px) {
+    .middle__content-right{
+        display: none;
+    }
+    .header{
+        background: url(../img/mobile-wine.jpg);
+        background-size: cover;
+    }
+    .header-nav__menu{
+        display: none;
+    }
+    .header-nav__contacts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;    
+        gap: 15px;
+    }
+    .header-nav__contacts a{
+        color: black;
+        font-weight: 700;
+        font-size: 0.7em;
+    }
+    .burgermenu{
+        display: block;
+    }
+    .burgermenu i{
+        color: black;
+        font-size: 20px;
+    }
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-content, .footer-content{
+        padding: 0 30px;
+    }
+    .header-links{
+        padding-bottom: 50px;
+    }
+    .links{
+        padding: 5px 10px;
+        font-size: 7px;
+        border:1px solid #C4C4C4;
+    }
+    
+    .header-nav__menu {
+        display: flex;
+        flex-direction: column;
+        height: 50vmin;
+        width: 30vmin;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.556);
+        top: 43px;
+        left: 0px;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        justify-content: space-evenly;
+        transform: translate(-150%);
+        transition: 0.8s;
+        z-index: 99;
+    }
+    .header-nav__menu li{
+        border: none;
+        padding: 0;
+    }
+    .burgermenu:hover ~ .header-nav__menu{
+        transform: translate(0);
+    
+    }
+  
+    
+}
+   
